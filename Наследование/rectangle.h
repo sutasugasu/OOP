@@ -23,9 +23,9 @@ class Rectangle : public Square{
 		float get_b() const;
 
 		/// метод нахождения периметра
-		float perimeter();
+		float perimeter() const override;
 
 		/// метод нахождения площади
-		float area();
+		float area() const override;
 
 };

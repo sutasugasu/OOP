@@ -21,9 +21,9 @@ class Square : public Figure{
 		float get_a() const;
 
 		/// метод нахождения периметра
-		float perimeter();
+		float perimeter() const override;
 
 		/// метод нахождения площади
-		float area();
+		float area() const override;
 
 };

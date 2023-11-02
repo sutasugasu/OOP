@@ -26,11 +26,11 @@ float Circle::get_r() const {
 };
 
 /// метод нахождения периметра
-float Circle::perimeter() { 
+float Circle::perimeter() const { 
 	return 2* Pi * r; 
 };
 
 ///  метод нахождения площади
-float Circle::area() { 
+float Circle::area() const{ 
 	return Pi * r * r; 
 };  

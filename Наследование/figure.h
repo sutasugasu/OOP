@@ -6,7 +6,7 @@
 class Figure{
     public:
     ///метод нахождения периметра
-    float virtual perimeter() = 0;    //абстрактный метод 
+    float virtual perimeter() const = 0;    //абстрактный метод 
     ///метод нахождения площади   
-    float virtual area() {return 0;} ;          //абстрактный метод  
+    float virtual area() const = 0 ;          //абстрактный метод  
 };

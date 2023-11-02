@@ -23,11 +23,11 @@ float Square::get_a() const {
 };
 
 /// метод нахождения периметра
-float Square::perimeter() { 
+float Square::perimeter() const{ 
 	return 4*a; 
 };
 
 ///  метод нахождения площади
-float Square::area() { 
+float Square::area() const{ 
 	return a*a; 
 };  

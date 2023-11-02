@@ -21,9 +21,9 @@ class Circle : public Figure{
 		float get_r() const;
 
 		/// метод нахождения длины окружности
-		float perimeter();
+		float perimeter() const override;
 
 		/// метод нахождения площади
-		float area();
+		float area() const override;
 
 };

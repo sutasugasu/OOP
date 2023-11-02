@@ -24,11 +24,11 @@ float Rectangle::get_b() const {
 };
 
 /// метод нахождения периметра
-float Rectangle::perimeter() { 
+float Rectangle::perimeter() const{ 
 	return 2*(a+b); 
 };
 
 ///  метод нахождения площади
-float Rectangle::area() { 
+float Rectangle::area() const{ 
 	return a*b; 
 };  
